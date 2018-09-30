@@ -2,5 +2,27 @@
 {% extends "layout.nunjucks" %}
 
 {% block content %}
-<h1>This is the index page</h1>
+	<!-- Adds header partial -->
+	{% include "partials/header.nunjucks" %}
+
+	<div id="resume">
+		<div class="container no-pad">
+			<div class="row no-pad">
+				<div class="col-md-3">
+					{% include "partials/contact_info.nunjucks" %}
+				</div>
+				<div class="col-md-9">
+					{% include "partials/about.nunjucks" %}
+					{% include "partials/experience.nunjucks" %}
+					{% include "partials/projects.nunjucks" %}
+					{% include "partials/skills.nunjucks" %}
+					{% include "partials/addexperience.nunjucks" %}
+					{% include "partials/volunteerwork.nunjucks" %}
+					{% include "partials/education.nunjucks" %}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% include "partials/footer.nunjucks" %}
 {% endblock %}

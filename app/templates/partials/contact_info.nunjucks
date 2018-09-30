@@ -1,0 +1,14 @@
+<div id="contact-block">
+	<a id="email" aria-label="Email Me" href="mailto:ngatmaitan@gmail.com">ngatmaitan@gmail.com</a>
+	<ul class="sm-links">
+		<li class="linkedin">
+			<a href="https://www.linkedin.com/in/ngatmaitan/" aria-label="Connect on LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+		</li>
+		<li class="github">
+			<a href="https://github.com/ngatmaitan" aria-label="View my GitHub" target="_blank"><i class="fab fa-github-square"></i></a>
+		</li>
+		<li class="print">
+			<a href="/documents/Gatmaitan_ResumePDF.pdf" aria-label="Open Resume in PDF form" target="_blank"><i class="fas fa-file-pdf"></i></a>
+		</li>
+	</ul>
+</div>
