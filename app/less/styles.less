@@ -127,6 +127,34 @@ header {
 				}
 			}
 		}
+
+		#moreprojects-link {
+			font-weight: 500;
+			color: @linkColor;
+			font-size: 15px;
+			&:hover {
+				color: @linkColorHover;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		}
+
+		#moreprojects {
+			//display: none;
+			//opacity: 0;
+			//visibility: hidden;
+			//transition: height 1s ease;
+			//font-size: 0;
+			//height: 0;
+			&.show {
+				//opacity: 1;
+				//visibility: initial;
+				//font-size: @bodyFont;
+				//display: block;
+				//transition: height 1s ease;
+				//height: 300px;
+			}
+		}
 	}
 
 	#volunteerwork {
