@@ -2,12 +2,37 @@
 	<div class="section-title">Projects</div>
 	<div class="section-content">
 		<div class="subtitle">
+			Weidner Property Site <a href="https://utah.weidner.com/apartments/ut/sandy/hills-at-sandy-station/home.aspx"><i class="fas fa-external-link-alt project-link"></i></a>
+		</div>
+		<ul class="subcontent">
+			<li>Integrated design based on client's 3rd party mockup to work with RentCafe's content management system to be used for client's entire portfolio</li>
+			<li>One of Yardi's strategic clients with a portfolio of over 52,500 units throughout the US and Canada</li>
+			<li class="skills-used">
+				<ul>
+					<li>HTML5</li>
+					<li>jQuery</li>
+					<li>Bootstrap</li>
+					<li>CSS/LESS</li>
+				</ul>
+			</li>
+		</ul>
+		<div class="subtitle">
 			Eleven40
 			<a href="https://www.live1140.com/" target="_blank"><i class="fas fa-external-link-alt project-link"></i></a>
 		</div>
 		<ul class="subcontent">
 			<li>Integrated client's 3rd party design to work with RentCafe's content management system</li>
-			<li>Technologies Used: HTML5, jQuery, Bootstrap, LESS, Angular, slick.js</li>
+			<li>Fully responsive on all devices and ADA Compliant</li>
+			<li class="skills-used">
+				<ul>
+					<li>HTML5</li>
+					<li>jQuery</li>
+					<li>Bootstrap</li>
+					<li>CSS/LESS</li>
+					<li>Angular</li>
+					<li>slick.js</li>
+				</ul>
+			</li>
 		</ul>
 		<div class="subtitle">
 			Ariel - Property Site Design
@@ -16,7 +41,14 @@
 		<ul class="subcontent">
 			<li>Developed property site template design for Yardi Systems Inc.</li>
 			<li>Fully responsive on all devices and ADA Compliant</li>
-			<li>Technologies Used: HTML5, jQuery, Bootstrap, LESS, CSS3 Animations</li>
+			<li class="skills-used">
+				<ul>
+					<li>HTML5</li>
+					<li>jQuery</li>
+					<li>Bootstrap</li>
+					<li>CSS/LESS</li>
+				</ul>
+			</li>
 		</ul>
 		<div class="subtitle">
 			Personal Website v1
@@ -24,7 +56,13 @@
 		</div>
 		<ul class="subcontent">
 			<li>First iteration of my personal website</li>
-			<li>Built using HTML5, jQuery, Bootstrap</li>
+			<li class="skills-used">
+				<ul>
+					<li>HTML5</li>
+					<li>jQuery</li>
+					<li>Bootstrap</li>
+				</ul>
+			</li>
 		</ul>
 		<div class="subtitle">
 			epipha.me
@@ -34,7 +72,13 @@
 			<li>A convenient way to facilitate affordable tutoring.</li>
 			<li>A collaborated project between Graphical User Interface Design and Implementation (CSE3345) and Database Concepts (CSE333) during the Spring 2015 semester</li>
 			<li>College is hard. epipha.me allows college students to receive tutoring help from their peers who have previously taken the class.  Users not only receive help, but they are also able to tutor and earn some extra cash.</li>
-			<li>Technologies Used: HTML, CSS, Swift</li>
+			<li class="skills-used">
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Swift</li>
+				</ul>
+			</li>
 		</ul>
 		<div class="subtitle">
 			BookUp
@@ -44,7 +88,13 @@
 			<li>Try something new between the covers</li>
 			<li>A collaborated project between Database Concepts (CSE3330) and Graphical User Interface Design and Implementation (CSE3345) during the Fall 2014 semester</li>
 			<li>It's hard to follow up with a good book to read after you've already finished an amazing one. BookUp solves that problem.  This application recommends new books to users based on their preferences.</li>
-			<li>Technologies Used: Firebase, PHP, MySQL</li>
+			<li class="skills-used">
+				<ul>
+					<li>Firebase</li>
+					<li>PHP</li>
+					<li>MySQL</li>
+				</ul>
+			</li>
 		</ul>
 		<div class="subtitle">
 			3D Animation Final Project
@@ -52,7 +102,11 @@
 		</div>
 		<ul class="subcontent">
 			<li>A 3D installation showing some important events in a person's life</li>
-			<li>Technologies Used: Maya</li>
+			<li class="skills-used">
+				<ul>
+					<li>Maya</li>
+				</ul>
+			</li>
 		</ul>
 		<div class="subtitle">
 			Where I Was, Where I Am, Where I'm Going
@@ -60,7 +114,11 @@
 		</div>
 		<ul class="subcontent">
 			<li></li>
-			<li>Technologies Used: Maya</li>
+			<li class="skills-used">
+				<ul>
+					<li>Maya</li>
+				</ul>
+			</li>
 		</ul>
 	</div>
 </div>

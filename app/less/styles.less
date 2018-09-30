@@ -17,6 +17,13 @@ body {
 	font-size: 20px;
 	-webkit-font-smoothing: antialiased;
 	padding: 75px 0;
+	a {
+		color: @linkColor;
+		&:hover {
+			text-decoration: none;
+			color: @linkColorHover;
+		}
+	}
 }
 
 header {
@@ -40,10 +47,10 @@ header {
 		list-style-type: none;
 	}
 	i {
-		color: fade(@iconLinkColor, 80%);
+		color: @iconLinkColorAlt;
 		vertical-align: middle;
 		font-size: @socialMediaIconFontSize;
-		&:hover { color: @iconLinkColor; }
+		&:hover {color: @iconLinkColor; }
 
 	}
 	.github { padding: 0 2.5px; }
@@ -79,36 +86,52 @@ header {
 	}
 
 	.endsubcontent { margin-bottom: 0 }
+
+	#about {
+		a:hover { border-bottom: 1px solid @linkColorHover }
+	}
 	
 	#contact-block {
-		#email {
-			color: @mainColor;
-			&:hover{
-				color: darken(@mainColor, 10%);
-			}
-		}
+		#email:hover{ border-bottom: 2px solid @linkColorHover }
 		.sm-links { top: -3px; }
 	}
 
 	#projects {
 		.project-image {
-			color: fade(@iconLinkColor, 80%);
+			color: @iconLinkColorAlt;
 			font-size: 24px;
 			position: relative;
 			top: 2px;
-			//vertical-align: middle;
 			&:hover { color: @iconLinkColor; }
 		}
 		.project-link {
-			color: fade(@iconLinkColor, 80%);
+			color: @iconLinkColorAlt;
 			font-size: 16px;
 			&:hover { color: @iconLinkColor; }
+		}
+		.skills-used {
+			padding-top: 2px;
+			color: @skillsUsedColor;
+			font-weight: 500;
+			&:before { display:none; }
+			ul {
+				padding-left: 0;
+				li {
+					&:before { display: none; }
+					display: inline-block;
+					font-size: 12px;
+					padding: 4px 8px;
+					border-radius: 8%;
+					margin-right: 2px;
+					border: 1px solid @skillsUsedColor;
+				}
+			}
 		}
 	}
 
 	#volunteerwork {
 		.vw-icon {
-			color: fade(@iconLinkColor, 80%);
+			color: @iconLinkColorAlt;
 			&:hover { color: @iconLinkColor; }
 		}
 	}
