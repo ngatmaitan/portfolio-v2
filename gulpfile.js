@@ -2,7 +2,9 @@ var gulp = require('gulp'),
 	nunjucksRender = require('gulp-nunjucks-render'),
 	less = require('gulp-less'),
 	minifyCSS = require('gulp-csso'),
-	//minifyJS = require('gulp-minify'),
+	concatJS = require('gulp-concat'),
+	renameJS = require('gulp-rename'),
+	minifyJS = require('gulp-uglify'),
 	browserSync = require('browser-sync').create();
 
 gulp.task('nunjucks', function() {
@@ -29,14 +31,17 @@ gulp.task('css', function(){
 	}));
 });
 
-/*gulp.task('js', function(){
+gulp.task('js', function(){
 	return gulp.src('app/js/*.js')
-	.pipe(minify())
-	.pipe(gulp.dest('app'))
+	.pipe(concatJS('scripts.js'))
+	.pipe(gulp.dest('app/js'))
+	.pipe(renameJS('scripts.min.js'))
+	.pipe(minifyJS())
+	.pipe(gulp.dest('app/js'))
 	.pipe(browserSync.reload({
 		stream: true
 	}));
-});*/
+});
 
 gulp.task('browserSync', function() {
 	browserSync.init({
@@ -44,9 +49,9 @@ gulp.task('browserSync', function() {
 	})
 })
 
-gulp.task('watch', ['browserSync', 'css', 'nunjucks'], function(){
+gulp.task('watch', ['browserSync', 'css', 'nunjucks', 'js'], function(){
 	gulp.watch("app/less/*.less", ['css']);
-	//gulp.watch("app/js/*.js", ['js']);
+	gulp.watch("app/js/*.js", ['js']);
 	gulp.watch("app/templates/partials/*.nunjucks", ['nunjucks']);
 });
 

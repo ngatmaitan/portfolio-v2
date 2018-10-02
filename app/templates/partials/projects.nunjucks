@@ -57,23 +57,27 @@
 					</ul>
 				</li>
 			</ul>
-			<div class="subtitle">
-				Personal Website v1
-				<i class="fas fa-external-link-alt project-link"></i>
-			</div>
-			<ul class="subcontent">
-				<li>First iteration of my personal website</li>
-				<li class="skills-used">
-					<ul>
-						<li>HTML5</li>
-						<li>jQuery</li>
-						<li>Bootstrap</li>
-					</ul>
-				</li>
-			</ul>
 		<!-- /ARIEL -->
 
 		<div id="moreprojects">
+
+			<!-- PERSONAL WEBSITE -->
+				<div class="subtitle">
+					Personal Website v1
+					<i class="fas fa-external-link-alt project-link"></i>
+				</div>
+				<ul class="subcontent">
+					<li>First iteration of my personal website</li>
+					<li class="skills-used">
+						<ul>
+							<li>HTML5</li>
+							<li>jQuery</li>
+							<li>Bootstrap</li>
+						</ul>
+					</li>
+				</ul>
+			<!-- /PERSONAL WEBSITE -->
+
 			<!-- EPIPHA.ME -->
 				<div class="subtitle">
 					epipha.me
@@ -112,7 +116,8 @@
 				</ul>
 			<!-- /BOOKUP -->
 
-			<!-- FINAL PROJECT -->
+			<!-- FINAL PROJECT
+				I dont remember the details of this project RIP
 				<div class="subtitle">
 					3D Animation Final Project
 					<a href="https://vimeo.com/93987929" target="_blank"><i class="fas fa-external-link-alt project-link"></i></a>
@@ -125,25 +130,23 @@
 						</ul>
 					</li>
 				</ul>
-			<!-- /FINAL PROJECT -->
+			/FINAL PROJECT -->
 
-			<!-- WIWWIAWIG -->
+			<!-- WIWWIAWIG
+				I dont remember the details of this project RIP
 				<div class="subtitle">
 					Where I Was, Where I Am, Where I'm Going
 					<a href="https://vimeo.com/90513785" target="_blank"><i class="fas fa-external-link-alt project-link"></i></a>
 				</div>
 				<ul class="subcontent">
-					<li></li>
+					<li>Project showcasing 3 events (past, present and future)</li>
 					<li class="skills-used">
 						<ul>
 							<li>Maya</li>
 						</ul>
 					</li>
 				</ul>
-			<!-- /WIWWIAWIG -->
+			/WIWWIAWIG -->
 		</div>
-
-		<div id="moreprojects-link">VIEW MORE</div>
-
 	</div>
 </div>
