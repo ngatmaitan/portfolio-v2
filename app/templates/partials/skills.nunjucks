@@ -47,16 +47,6 @@
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
 		</div>		
-		<div class="skillbar" data-percent="20%">
-			<div class="skillbar-title">Python</div>
-			<div class="skillbar-bar"></div>
-			<div class="skillbar-percent"></div>
-		</div>
-		<div class="skillbar" data-percent="5%">
-			<div class="skillbar-title">MySQL</div>
-			<div class="skillbar-bar"></div>
-			<div class="skillbar-percent"></div>
-		</div>
 		<div class="skillbar" data-percent="80%">
 			<div class="skillbar-title">Microsoft Suite</div>
 			<div class="skillbar-bar"></div>
