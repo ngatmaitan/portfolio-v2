@@ -34,10 +34,10 @@ gulp.task('css', function(){
 gulp.task('js', function(){
 	return gulp.src('app/js/*.js')
 	.pipe(concatJS('scripts.js'))
-	.pipe(gulp.dest('app/js'))
+	.pipe(gulp.dest('app'))
 	.pipe(renameJS('scripts.min.js'))
 	.pipe(minifyJS())
-	.pipe(gulp.dest('app/js'))
+	.pipe(gulp.dest('app'))
 	.pipe(browserSync.reload({
 		stream: true
 	}));

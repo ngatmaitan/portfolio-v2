@@ -140,6 +140,39 @@ header {
 		}
 	}
 
+	#skills {
+		.skillbar {
+			position: relative;
+			width: 100%;
+			background: @skillBarBackground;
+			height: 35px;
+			margin-bottom: 5px;
+			&:first-of-type() { margin-top: 5px }
+			&:last-of-type() { margin-bottom: 0!important }
+		}
+		.skillbar-title {
+			position: absolute;
+			width: 110px;
+			font-weight: bold;
+			color: white;
+			padding-left: 10px;
+			top: 2px;
+			color: @skillBarTitleColor;
+		}
+		.skillbar-bar {
+			height: 35px;
+			background: @skillBarColor;
+		}
+		.skillbar-percent {
+			position: absolute;
+			right: 10px;
+			top: 7px;
+			font-weight: bold;
+			font-size: @skillBarPercentFontSize;
+			color: @skillBarPercentColor;
+		}
+	}
+
 	#volunteerwork {
 		.vw-icon {
 			color: @iconLinkColorAlt;

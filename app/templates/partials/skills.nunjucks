@@ -1,4 +1,71 @@
 <div class="resume-section" id="skills">
 	<div class="section-title">Technical Expertise</div>
-	<div class="section-content">HTML, CSS/LESS, JavaScript, Bootstrap, Angular, Git, Photoshop, Illustrator, InDesign, Python, MySQL, Ruby, Microsoft Suite, Excel, Powerpoint</div>
+	<!-- <div class="section-content">HTML, CSS/LESS, JavaScript, Bootstrap, Angular, Git, Photoshop, Illustrator, InDesign, Python, MySQL, Ruby, Microsoft Suite, Gulp</div> -->
+	<div class="section-content d-flex flex-column">
+		<div class="skillbar" data-percent="85%">
+			<div class="skillbar-title">HTML</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="90%">
+			<div class="skillbar-title">CSS/LESS</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="65%">
+			<div class="skillbar-title">Javascript</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="80%">
+			<div class="skillbar-title">Bootstrap</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="10%">
+			<div class="skillbar-title">Angular</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="45%">
+			<div class="skillbar-title">Git</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="60%">
+			<div class="skillbar-title">Photoshop</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="15%">
+			<div class="skillbar-title">Illustrator</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="10%">
+			<div class="skillbar-title">InDesign</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>		
+		<div class="skillbar" data-percent="20%">
+			<div class="skillbar-title">Python</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="5%">
+			<div class="skillbar-title">MySQL</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="80%">
+			<div class="skillbar-title">Microsoft Suite</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="10%">
+			<div class="skillbar-title">Gulp</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+	</div>
 </div>
