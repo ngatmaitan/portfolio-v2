@@ -1,0 +1,36 @@
+{
+  "images": [{
+    "src": "images/posters/11.jpg",
+    "alt": "Image one alt text"
+  }, {
+    "src": "images/posters/8.jpg",
+    "alt": "Image two alt text"
+  }, {
+    "src": "images/posters/9.jpg",
+    "alt": "Image two alt text"
+  }, {
+    "src": "images/posters/6.jpg",
+    "alt": "Image two alt text"
+  }, {
+    "src": "images/posters/7.jpg",
+    "alt": "Image two alt text"
+  }, {
+    "src": "images/posters/10.jpg",
+    "alt": "Image two alt text"
+  }, {
+    "src": "images/posters/3.jpg",
+    "alt": "Image two alt text"
+  }, {
+    "src": "images/posters/4.jpg",
+    "alt": "Image two alt text"
+  }, {
+    "src": "images/posters/5.jpg",
+    "alt": "Image two alt text"
+  }, {
+    "src": "images/posters/2.jpg",
+    "alt": "Image two alt text"
+  }, {
+    "src": "images/posters/1.jpg",
+    "alt": "Image two alt text"
+  }]
+}

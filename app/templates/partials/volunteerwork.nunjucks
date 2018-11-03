@@ -3,12 +3,71 @@
 	<div class="section-content">
 		<div class="subtitle">
 			Freelance Graphic Designer, SMU Office of Multicultural Student Affairs (OMSA); Dallas, TX &mdash; September 2013 - April 2015
-			<i class="fas fa-images vw-icon"></i>
+			<div id="poster-gallery">
+			    <div class="grid">
+			    	<div class="grid-sizer"></div>
+			    	<div class="grid-item">
+			    		<a href="images/11.jpg" target="_blank">
+				    		<img src="images/11.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/8.jpg" target="_blank">
+				    		<img src="images/8.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/9.jpg" target="_blank">
+				    		<img src="images/9.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/6.jpg" target="_blank">
+				    		<img src="images/6.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/7.jpg" target="_blank">
+				    		<img src="images/7.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/10.jpg" target="_blank">
+				    		<img src="images/10.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/3.jpg" target="_blank">
+				    		<img src="images/3.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/4.jpg" target="_blank">
+				    		<img src="images/4.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/5.jpg" target="_blank">
+				    		<img src="images/5.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/2.jpg" target="_blank">
+				    		<img src="images/2.jpg"></img>
+				    	</a>
+			    	</div>
+			    	<div class="grid-item">
+			    		<a href="images/1.jpg" target="_blank">
+				    		<img src="images/1.jpg"></img>
+				    	</a>
+			    	</div>
+			    </div>
+			</div>
 		</div>
 		<ul class="subcontent endsubcontent">
 			<li>Worked with 5 student organizations to design custom advertisements</li>
 			<li>Created physical and digital posters for 2 events per year for 3 student organizations</li>
-			<li>Designed the East Asian Student Association and Asian Council t-shirts using Illustrator</li>
+			<li>Designed the East Asian Student Association and Asian Council t-shirts using Photoshop and Illustrator</li>
 		</ul>
 	</div>
 </div>

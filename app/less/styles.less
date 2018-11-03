@@ -71,6 +71,7 @@ header {
 			.subtitle {
 				font-weight: 500;
 				color: @subTitleColor;
+				position: relative;
 			}
 			.subcontent {
 				padding-left: 0;
@@ -192,9 +193,32 @@ header {
 	}
 
 	#volunteerwork {
+		#showmore-button-poster-gallery {
+			position: absolute;
+			top: 30px;
+			left: 265px;
+		}
 		.vw-icon {
 			color: @iconLinkColorAlt;
-			&:hover { color: @iconLinkColor; }
+			&:hover {
+				color: @iconLinkColor;
+				cursor: pointer;
+			}
+		}
+		.grid {
+			&:after {
+			  content: '';
+			  display: block;
+			  clear: both;
+			}
+			.grid-sizer { width: 33.333%; }
+			.grid-item {
+				width: 33.333%;
+				img {
+					max-width: 100%;
+					padding: 5px;
+				}
+			}
 		}
 	}
 }
