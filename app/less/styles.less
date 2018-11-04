@@ -144,6 +144,7 @@ header {
 		}
 
 		.modal {
+			// z-index: 1;
 			.modal-header {
 				border: none;
 				position: absolute;
@@ -152,7 +153,10 @@ header {
 			}
 			.modal-body {
 				text-align: center;
-				img { max-width: 600px; }
+				img {
+					max-width: 600px;
+					width: 90%;
+				}
 			}
 		}
 	}
@@ -235,5 +239,92 @@ footer {
 			#copyright-year { padding: 0 5px }
 		}
 		.sm-links { top: -6px; }
+	}
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.slow {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+@media (max-width: 1200px) {
+	#resume {
+		#volunteerwork {
+			#showmore-button-poster-gallery { left: 460px; }
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	#resume {
+		padding-top: 0;
+
+		#contact-block {
+			padding-bottom: 50px;
+			.sm-links {
+				margin-bottom: 0;
+				top: -10px;
+			}
+		}
+
+		#volunteerwork {
+			#showmore-button-poster-gallery { left: 380px!important;  }
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	#resume {
+		#volunteerwork {
+			#showmore-button-poster-gallery {
+				top: 60px;
+				left: 100px!important;
+			}
+		}
+	}
+}
+
+@media (max-width: 580px) {
+	body {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	#resume {
+		#volunteerwork {
+			#showmore-button-poster-gallery { display: none; }
+		}
 	}
 }

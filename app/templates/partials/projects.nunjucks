@@ -64,7 +64,7 @@
 			<!-- PERSONAL WEBSITE -->
 				<div class="subtitle">
 					Personal Website v1
-					<i class="fas fa-external-link-alt project-link"></i>
+					<a href="/v1/index.html"><i class="fas fa-external-link-alt project-link"></i></a>
 				</div>
 				<ul class="subcontent">
 					<li>First iteration of my personal website</li>
@@ -98,7 +98,7 @@
 					</li>
 				</ul>
 
-				<div class="modal fade bd-example-modal-lg" id="epipha.memodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal fade" id="epipha.memodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
@@ -135,7 +135,7 @@
 					</li>
 				</ul>
 
-				<div class="modal fade bd-example-modal-lg" id="bookupmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal fade" id="bookupmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">

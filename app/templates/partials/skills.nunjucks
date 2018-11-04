@@ -1,7 +1,7 @@
 <div class="resume-section" id="skills">
 	<div class="section-title">Technical Expertise</div>
-	<!-- <div class="section-content">HTML, CSS/LESS, JavaScript, Bootstrap, Angular, Git, Photoshop, Illustrator, InDesign, Python, MySQL, Ruby, Microsoft Suite, Gulp</div> -->
-	<div class="section-content d-flex flex-column">
+	<div class="section-content d-xl-none">HTML, CSS/LESS,  JavaScript, Bootstrap, Angular, Git, Photoshop, Illustrator, InDesign, Microsoft Suite, Gulp</div>
+	<div class="section-content d-none d-xl-block">
 		<div class="skillbar" data-percent="85%">
 			<div class="skillbar-title">HTML</div>
 			<div class="skillbar-bar"></div>

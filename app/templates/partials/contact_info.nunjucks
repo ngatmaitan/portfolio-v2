@@ -1,4 +1,4 @@
-<div id="contact-block">
+<div id="contact-block" class="d-flex justify-content-between d-lg-inline">
 	<a id="email" aria-label="Email Me" href="mailto:ngatmaitan@gmail.com">ngatmaitan@gmail.com</a>
 	<ul class="sm-links">
 		<li class="linkedin">
