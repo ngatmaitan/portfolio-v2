@@ -5,8 +5,6 @@ var gulp = require('gulp'),
 	concatJS = require('gulp-concat'),
 	renameJS = require('gulp-rename'),
 	minifyJS = require('gulp-uglify'),
-	changed = require('gulp-changed'),
-	imagemin = require('gulp-imagemin'),
 	browserSync = require('browser-sync').create();
 
 gulp.task('nunjucks', function() {
@@ -22,17 +20,6 @@ gulp.task('nunjucks', function() {
 		stream: true
 	}));
 });
-
-gulp.task('imagemin', function() {
-   var imgSrc = 'app/images/original/*.+(png|jpg|gif)',
-   imgDst = 'app/images';
-   
-   gulp.src(imgSrc)
-   .pipe(changed(imgDst))
-   .pipe(imagemin())
-   .pipe(gulp.dest(imgDst));
-});
-
 
 gulp.task('css', function(){
 	return gulp.src('app/less/*.less')
@@ -62,7 +49,7 @@ gulp.task('browserSync', function() {
 	})
 })
 
-gulp.task('watch', ['browserSync', 'css', 'nunjucks', 'js', 'imagemin'], function(){
+gulp.task('watch', ['browserSync', 'css', 'nunjucks', 'js'], function(){
 	gulp.watch("app/less/*.less", ['css']);
 	gulp.watch("app/js/*.js", ['js']);
 	gulp.watch("app/images/*.+(png|jpg|gif)", ['imagemin'])

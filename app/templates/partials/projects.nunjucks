@@ -3,7 +3,7 @@
 	<div class="section-content">
 		<!-- WEIDNER -->
 			<div class="subtitle">
-				Weidner Property Site <a href="https://utah.weidner.com/apartments/ut/sandy/hills-at-sandy-station/home.aspx"><i class="fas fa-external-link-alt project-link"></i></a>
+				Weidner Property Site <a href="https://utah.weidner.com/apartments/ut/sandy/hills-at-sandy-station/home.aspx" target="_blank"><i class="fas fa-external-link-alt project-link"></i></a>
 			</div>
 			<ul class="subcontent">
 				<li>Integrated design based on client's 3rd party mockup to work with RentCafe's content management system to be used for client's entire portfolio</li>
@@ -21,7 +21,7 @@
 
 		<!-- ELEVEN40 -->
 			<div class="subtitle">
-				Eleven40
+				Eleven40 
 				<a href="https://www.live1140.com/" target="_blank"><i class="fas fa-external-link-alt project-link"></i></a>
 			</div>
 			<ul class="subcontent">
@@ -42,7 +42,7 @@
 
 		<!-- ARIEL -->
 			<div class="subtitle">
-				Ariel - Property Site Design
+				Ariel - Property Site Design 
 				<a href="https://www.rentcafe.com/apartments/ariel/nv/tonopah/chancellor-properties/index.aspx" target="_blank"><i class="fas fa-external-link-alt project-link"></i></a>
 			</div>
 			<ul class="subcontent">
@@ -63,8 +63,8 @@
 
 			<!-- PERSONAL WEBSITE -->
 				<div class="subtitle">
-					Personal Website v1
-					<a href="/v1/index.html"><i class="fas fa-external-link-alt project-link"></i></a>
+					Personal Website v1 
+					<a href="/v1/index.html" target="_blank"><i class="fas fa-external-link-alt project-link"></i></a>
 				</div>
 				<ul class="subcontent">
 					<li>First iteration of my personal website</li>
@@ -80,7 +80,7 @@
 
 			<!-- EPIPHA.ME -->
 				<div class="subtitle">
-					epipha.me
+					epipha.me 
 					<a data-toggle="modal" data-target="#epipha.memodal">
 						<i class="fas fa-image project-image"></i>
 					</a>
@@ -117,7 +117,7 @@
 
 			<!-- BOOKUP -->
 				<div class="subtitle">
-					BookUp
+					BookUp 
 					<a data-toggle="modal" data-target="#bookupmodal">
 						<i class="fas fa-image project-image"></i>
 					</a>
