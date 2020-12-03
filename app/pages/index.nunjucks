@@ -16,6 +16,7 @@
 					{% include "partials/experience.nunjucks" %}
 					{% include "partials/projects.nunjucks" %}
 					{% include "partials/skills.nunjucks" %}
+					{% include "partials/certifications.nunjucks" %}
 					{% include "partials/addexperience.nunjucks" %}
 					{% include "partials/volunteerwork.nunjucks" %}
 					{% include "partials/education.nunjucks" %}

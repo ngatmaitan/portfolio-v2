@@ -1,13 +1,22 @@
 <div class="resume-section" id="experience">
 	<div class="section-title">Professional Experience</div>
 	<div class="section-content">
-		<div class="subtitle">Associate Web Designer, Yardi Systems; Dallas, TX &mdash; October 2016 - Present</div>
+		<div class="subtitle">Salesforce CloudCraze Front End Developer, Bluewolf, an IBM Company; Dallas, TX &mdash; September 2019 - Present</div>
+		<ul class="subcontent">
+			<li>Work closely with the Technical Lead, Sr. UX Designer, Product Owners and Product Developer to build rich user interfaces</li>
+			<li>Convert UX designs and comps into HTML5, CSS3, and Javascript based experiences that are scalable across all browsers, devices and platforms</li>
+			<li>Example of project work includes updating the user experience for a B2B Commerce site for a global company in an agile environment</li>
+			<li>Primary Technologies Used: Salesforce, Bootstrap</li>
+		</ul>
+	</div>
+	<div class="section-content">
+		<div class="subtitle">Associate Web Designer, Yardi Systems; Dallas, TX &mdash; October 2016 - August 2019</div>
 		<ul class="subcontent endsubcontent">
-			<li>Lead onboarding of new team members by providing quick and efficient knowledge transfer of best practices at Yardi</li>
-			<li>Serve as front-end technologies subject matter expert to internal team and trusted advisor for all things Creative Services to adjecent teams</li>
-			<li>Independently develop responsive web-based marketing platforms in collaboration with clients, designers, and senior managers</li>
-			<li>Specialize in creating modern, modular, and user friendly website themes</li>
-			<li>Migrate legacy design on behalf of new Yardi customers</li>
+			<li>Led onboarding of new team members by providing quick and efficient knowledge transfer of best practices at Yardi</li>
+			<li>Served as front-end technologies subject matter expert to internal team and trusted advisor for all things Creative Services to adjecent teams</li>
+			<li>Independently developed responsive web-based marketing platforms in collaboration with clients, designers, and senior managers</li>
+			<li>Specialized in creating modern, modular, and user friendly website themes</li>
+			<li>Migrated legacy design on behalf of new Yardi customers</li>
 			<li>Primary Languages Used: Bootstrap, CSS/LESS, jQuery, and HTML5</li>
 		</ul>
 	</div>

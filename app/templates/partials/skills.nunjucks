@@ -22,6 +22,11 @@
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
 		</div>
+		<div class="skillbar" data-percent="15%">
+			<div class="skillbar-title">React</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
 		<div class="skillbar" data-percent="10%">
 			<div class="skillbar-title">Angular</div>
 			<div class="skillbar-bar"></div>
