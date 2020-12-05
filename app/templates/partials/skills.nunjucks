@@ -12,12 +12,12 @@
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
 		</div>
-		<div class="skillbar" data-percent="65%">
+		<div class="skillbar" data-percent="70%">
 			<div class="skillbar-title">Javascript</div>
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
 		</div>
-		<div class="skillbar" data-percent="80%">
+		<div class="skillbar" data-percent="85%">
 			<div class="skillbar-title">Bootstrap</div>
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
@@ -51,6 +51,16 @@
 			<div class="skillbar-title">InDesign</div>
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="25%">
+			<div class="skillbar-title">Adobe XD</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="25%">
+			<div class="skillbar-title">Sketch</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
 		</div>		
 		<div class="skillbar" data-percent="80%">
 			<div class="skillbar-title">Microsoft Suite</div>
@@ -59,6 +69,11 @@
 		</div>
 		<div class="skillbar" data-percent="10%">
 			<div class="skillbar-title">Gulp</div>
+			<div class="skillbar-bar"></div>
+			<div class="skillbar-percent"></div>
+		</div>
+		<div class="skillbar" data-percent="25%">
+			<div class="skillbar-title">Salesforce</div>
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
 		</div>
