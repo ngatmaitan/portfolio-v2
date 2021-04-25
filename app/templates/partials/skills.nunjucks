@@ -1,6 +1,6 @@
 <div class="resume-section" id="skills">
 	<div class="section-title">Technical Expertise</div>
-	<div class="section-content d-xl-none">HTML, CSS/LESS,  JavaScript, Bootstrap, Angular, Git, Photoshop, Illustrator, InDesign, Microsoft Suite, Gulp</div>
+	<div class="section-content d-xl-none">HTML, CSS/LESS/SASS, JavaScript, Bootstrap, React, Git, Photoshop, Illustrator, InDesign, Microsoft Suite, Gulp</div>
 	<div class="section-content d-none d-xl-block">
 		<div class="skillbar" data-percent="85%">
 			<div class="skillbar-title">HTML</div>
@@ -8,7 +8,7 @@
 			<div class="skillbar-percent"></div>
 		</div>
 		<div class="skillbar" data-percent="90%">
-			<div class="skillbar-title">CSS/LESS</div>
+			<div class="skillbar-title">CSS/LESS/SASS</div>
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
 		</div>
@@ -22,17 +22,12 @@
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
 		</div>
-		<div class="skillbar" data-percent="15%">
+		<div class="skillbar" data-percent="30%">
 			<div class="skillbar-title">React</div>
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
 		</div>
-		<div class="skillbar" data-percent="10%">
-			<div class="skillbar-title">Angular</div>
-			<div class="skillbar-bar"></div>
-			<div class="skillbar-percent"></div>
-		</div>
-		<div class="skillbar" data-percent="45%">
+		<div class="skillbar" data-percent="65%">
 			<div class="skillbar-title">Git</div>
 			<div class="skillbar-bar"></div>
 			<div class="skillbar-percent"></div>
